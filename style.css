@@ -1,0 +1,63 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+#navbar{
+    background-color: rgb(225, 74, 74);
+    display: flex;
+    justify-content: flex-end;
+}
+.nav-container{
+    display: flex;
+    gap: 30px;
+    padding: 30px;
+}
+.nav-container .nav-items a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 30px;
+}
+.nav-items a:hover{
+    background-color: rgb(118, 46, 185);
+}
+#welcome-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    background-color: rgb(26, 24, 24);
+}
+#welcome-section h1{
+    color: white;
+    font-size: 60px;
+    margin-bottom: -5px;
+}
+#welcome-section p{
+    color:rgb(211, 86, 86);
+    font-size: 40px;
+}
+#projects{
+    display: flex;
+    background-color: rgb(99, 109, 176);
+    flex-direction: column;
+    align-items: center;
+}
+#projects h1{
+    color: white;
+    font-size: 50px;
+    border-bottom: 2px solid white;
+}
+.projects_container{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.project-tile img{
+    height: 300px;
+    width: 300px;
+    max-width: 350px;
+}
