@@ -6,6 +6,11 @@ body {
   background-color: rgb(225, 74, 74);
   display: flex;
   justify-content: flex-end;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 .nav-container {
   display: flex;
@@ -96,12 +101,14 @@ body {
   transform: translateY(5px);
 }
 #profile-link{
-    padding: 10px 15px;
+    padding: 10px 20px;
     text-decoration: none;
     color:white;
     background-color: rgb(27, 15, 15);
     margin: 20px;
+
 }
 #profile-link:hover{
     background-color: rgb(194, 42, 42);
+    
 }
